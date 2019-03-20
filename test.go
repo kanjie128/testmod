@@ -2,6 +2,6 @@ package testmod
 
 import "fmt"
 
-func Test(s string) string {
-	return fmt.Sprintf("input %s in module test", s)
+func Test(key, value string) string {
+	return fmt.Sprintf("input key:%s, value:%s, in module test", key, value)
 }
